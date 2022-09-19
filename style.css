@@ -8,7 +8,7 @@ body{
     font-weight: 400;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1400px;
+    width: 100%;
 }
 nav{
     display: block;
@@ -17,6 +17,12 @@ nav{
     text-align: left;
     margin: auto;
     margin-top: 2rem;
+}
+main{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-item: center;
 }
 
 .section{
