@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("./images/bg-desktop.svg");
+    font-weight: 400;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1400px;
+}
+nav{
+    display: block;
+    width: 90%;
+    height: 80%;
+    text-align: left;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 90%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+
+
+.first-section img{
+    width: 90%;
+    
+}
+
+.second-section h1{
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+}
+
+.second-section p{
+    font-size: 1.10rem;
+    color: white;
+    font-weight: lighter;
+    line-height: 2rem;
+}
+.second-section button{
+    width: 12rem;
+    height: 3rem;
+    border-radius: 50px;
+    background-color: white;
+    font-size: 1.25rem;
+    color: hsl(257, 40%, 49%);
+    border: none;
+    box-shadow: 2px 2px 5px hsl(257, 53%, 31%);
+}
+
+section.icons{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 48px;
+    margin: 2rem 4rem;
+    
+}
+
+section.icons a{
+    font-size: 2rem;
+    color: white;
+    margin-left: 2rem;
+
+}
+
+section.icons a:hover{
+    color: hsl(300, 69%, 71%);
+}
+.second-section button:hover{
+    background-color:hsl(300, 69%, 71%) ;
+    color: white;
+}
+
+@media (min-width: 375px) and (max-width: 1000px){
+    body{
+        width: 100%;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-color: hsl(257, 40%, 49%);
+        display: flex;
+        flex-direction: column;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        margin-top: 4rem;
+    }
+    .first-section img{
+        width: 100%;
+        
+    }
+    nav{
+        width: 80%;
+    }
+    section.icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin: 4rem 4rem; 
+    }
+}
