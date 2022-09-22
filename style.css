@@ -1,11 +1,11 @@
 body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     background-color: hsl(257, 40%, 49%);
     background-image: url("./images/bg-desktop.svg");
     font-weight: 400;
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -16,13 +16,7 @@ nav{
     height: 80%;
     text-align: left;
     margin: auto;
-    margin-top: 2rem;
-}
-main{
-    display: flex;
-    width: 80%;
-    margin: auto;
-    align-item: center;
+    padding-top: 2em;
 }
 
 .section{
@@ -43,21 +37,21 @@ main{
 .second-section h1{
     font-weight: bold;
     color: white;
-    font-size: 3rem;
+    font-size: 2.5em;
 }
 
 .second-section p{
     font-size: 1.10rem;
     color: white;
     font-weight: lighter;
-    line-height: 2rem;
+    line-height: 2em;
 }
 .second-section button{
-    width: 12rem;
-    height: 3rem;
+    width: 12em;
+    height: 3em;
     border-radius: 50px;
     background-color: white;
-    font-size: 1.25rem;
+    font-size: 1.25em;
     color: hsl(257, 40%, 49%);
     border: none;
     box-shadow: 2px 2px 5px hsl(257, 53%, 31%);
@@ -67,15 +61,15 @@ section.icons{
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    padding-right: 48px;
-    margin: 2rem 4rem;
+    padding-right: 4em;
+    margin: 0px 4em 0px 0px;
     
 }
 
 section.icons a{
-    font-size: 2rem;
+    font-size: 2em;
     color: white;
-    margin-left: 2rem;
+    margin-left: 2em;
 
 }
 
@@ -99,11 +93,11 @@ section.icons a:hover{
     .section{
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 90%;
         margin: auto;
         text-align: center;
         align-items: center;
-        margin-top: 4rem;
+        margin-top: 4em;
     }
     .first-section img{
         width: 100%;
@@ -116,7 +110,6 @@ section.icons a:hover{
         display: flex;
         align-items: center;
         justify-content: center;
-
-        margin: 4rem 4rem; 
+        margin: 4em 4em; 
     }
 }
