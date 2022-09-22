@@ -1,6 +1,8 @@
+*{
+    margin:0;
+    padding:0;
+}
 body{
-    margin: 0;
-    padding: 0;
     font-family: 'Open Sans', sans-serif;
     background-color: hsl(257, 40%, 49%);
     background-image: url("./images/bg-desktop.svg");
@@ -10,13 +12,13 @@ body{
     background-repeat: no-repeat;
     width: 100%;
 }
+
 nav{
     display: block;
     width: 90%;
-    height: 80%;
     text-align: left;
     margin: auto;
-    padding-top: 2em;
+    padding-top: 1em;
 }
 
 .section{
@@ -24,7 +26,7 @@ nav{
     grid-template-columns: 60% 40%;
     width: 90%;
     margin: auto;
-    margin-top: 3rem;
+    margin-top: 2em;
 }
 
 
@@ -38,13 +40,17 @@ nav{
     font-weight: bold;
     color: white;
     font-size: 2.5em;
+    margin-top: 1.25em;
+    line-height: 1.5em;
 }
 
 .second-section p{
-    font-size: 1.10em;
+    font-size: 1.2em;
     color: white;
     font-weight: lighter;
-    line-height: 2em;
+    line-height: 1.5em;
+    margin-top: 1em;
+
 }
 .second-section button{
     width: 12em;
@@ -55,22 +61,21 @@ nav{
     color: hsl(257, 40%, 49%);
     border: none;
     box-shadow: 2px 2px 5px hsl(257, 53%, 31%);
+    margin-top: 2em;
 }
 
 section.icons{
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    padding-right: 4em;
-    margin: 0px 4em 0px 0px;
+    margin: 4em 3em 0px 0px;
     
 }
 
 section.icons a{
     font-size: 2em;
     color: white;
-    margin-left: 2em;
-
+    margin-left: 0.5em;
 }
 
 section.icons a:hover{
@@ -111,5 +116,23 @@ section.icons a:hover{
         align-items: center;
         justify-content: center;
         margin: 4em 4em; 
+    }
+}
+@media (min-width: 1001px) and (max-width: 1399px){
+    .section{
+        margin-top: 5em
+    }
+    .second-section h1{
+        font-weight: bold;
+        color: white;
+        font-size: 2em;
+        margin-top: 1em;
+        line-height: 1.25em;
+    }
+    section.icons{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin-bottom: 2em;
     }
 }
